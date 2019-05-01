@@ -1,0 +1,23 @@
+{
+  "name": "codegigs",
+  "version": "1.0.0",
+  "description": "Simple job find app for developers",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Alvaro Serrano",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "pg": "^7.10.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^5.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
